@@ -1,0 +1,40 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#map {
+  width: 100%;
+  height: calc(100% - 60px);
+}
+
+#panel {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: #f2f2f2;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#panel input {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#panel button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #2a93ee;
+  color: #fff;
+  cursor: pointer;
+}
+
+#panel button:hover {
+  background: #1c6cb3;
+}
